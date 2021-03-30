@@ -6,6 +6,8 @@ RUN apt-get update && apt-get install -y \
   jq \
   vim \
   kafkacat \
+  telnet \
+  bind9-dnsutils \
   && rm -rf /var/lib/apt/lists/*
 
 CMD /bin/bash
