@@ -11,4 +11,4 @@ RUN apt-get update && apt-get install -y \
   sysvbanner \
   && rm -rf /var/lib/apt/lists/*
 
-CMD /bin/bash
+CMD /usr/bin/sleep 600
