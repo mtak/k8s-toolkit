@@ -16,6 +16,9 @@ RUN apt-get update && apt-get install -y \
   htop \
   iotop \
   net-tools \
+  pciutils \
+  nload \
+  iftop \
   && rm -rf /var/lib/apt/lists/*
 
-CMD /usr/bin/sleep 600
+CMD /bin/bash
