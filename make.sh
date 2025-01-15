@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="1.8"
+VERSION="1.10"
 NAMESPACE=''
 IMAGENAME='merijntjetak/k8s-toolkit'
 
@@ -12,7 +12,7 @@ else
 fi
 
 if [[ "$1" == "build" ]]; then
-  docker build --progress plain -t ${IMAGENAME} -t ${IMAGENAME}:${VERSION} .
+  docker build --no-cache --progress plain -t ${IMAGENAME} -t ${IMAGENAME}:${VERSION} .
 
 elif [[ "$1" == "run" ]]; then
   docker run \

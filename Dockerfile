@@ -19,6 +19,7 @@ RUN apt-get update && apt-get install -y \
   pciutils \
   nload \
   iftop \
+  tcpdump \
   && rm -rf /var/lib/apt/lists/*
 
 CMD /bin/bash
