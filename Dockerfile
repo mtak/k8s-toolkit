@@ -11,7 +11,6 @@ RUN apt-get update && apt-get install -y \
   sysvbanner \
   netcat-traditional \
   openssh-client \ 
-  kafkacat \
   sysstat \
   htop \
   iotop \
