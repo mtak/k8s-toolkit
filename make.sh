@@ -1,6 +1,6 @@
 #!/bin/bash
 
-VERSION="1.10"
+VERSION="1.12"
 NAMESPACE=''
 IMAGENAME='merijntjetak/k8s-toolkit'
 
